@@ -1,3 +1,15 @@
-.sunflower-title{
+h1{
     font-family: 'Satisfy', cursive;
+}
+
+h3.vincent{
+    font-family: 'Neucha', cursive;
+}
+
+h4.info{
+    font-family: 'Neucha', cursive;
+}
+
+p{
+    font-family: 'Neucha', cursive;
 }
