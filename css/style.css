@@ -1,15 +1,133 @@
-h1{
+body.body1{
+    background-color: #B2F3F2;
+}
+
+body.body2{
+    background-color: #F3D51C;
+}
+
+.landing-page {
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+
+#rotate {
+    width: 20%;
+    position: relative;
+    left: 275px;
+    top: -150px;
+}
+
+h1 {
     font-family: 'Satisfy', cursive;
 }
 
-h3.vincent{
+h1.title1 {
+    color: #F3D51C;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 500%;
+    transform: rotate(-5deg);
+}
+
+h1.title2 {
+    color: #F3D51C;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 500%;
+    transform: rotate(3deg);
+}
+
+.title1 {
+    position: relative;
+    left: 375px;
+    margin: 0;
+}
+
+.title2 {
+    position: relative;
+    left: 525px;
+    margin: 0;
+    padding-top: 2%;
+}
+
+h3.vincent {
+    color:#0A365F ;
+    font-family: 'Neucha', cursive;
+    text-align: center;
+}
+
+.vincent {
+    padding: 0%;
+    margin: 0;
+}
+
+.info {
+    text-align: center;
+}
+
+h4.info {
+    color: #0A365F;
+    font-family: 'Neucha', cursive;
+    border-radius: 25px;
+    background: #B9C4B9;
+    padding: 20px;
+    width: 215px;
+    height: 15px;
+    margin: auto;
+    border-bottom: 70px;
+}
+
+p {
     font-family: 'Neucha', cursive;
 }
 
-h4.info{
-    font-family: 'Neucha', cursive;
+p.intro{
+    color: #0A365F;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 25px;
+    background: #B9C4B9;
+    padding: 20px;
+    width: 300px;
+    height: 425px;
+    margin: auto;
 }
 
-p{
-    font-family: 'Neucha', cursive;
+img.backbutton {
+    width: 5%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+
+#row {
+    display: flex;
+    /* use row for desktop and tablet layout */
+    flex-direction: row;
+    /* wrap is used with tablets layout to create an extra row */
+    flex-wrap: wrap;
+}
+
+.column {
+    /* flex 1 sets flex-grow to 1, flex-shrink to 1 and flex-basis to 1
+    flex-basis of 1 means children colums will have equal width */
+    flex: 1;
+    /* because box-sizeing = border box, padding is counted as part of the overall width of the column */
+    padding: 10px;
+}
+
+p.back{
+    color: #0A365F;
+}
+
+.back{
+    margin: 0;
+    position:relative;
+    left: 35px;
+    bottom: 30px;
 }
