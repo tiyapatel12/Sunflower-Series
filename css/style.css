@@ -1,8 +1,8 @@
-body.body1{
+body.body1 {
     background-color: #B2F3F2;
 }
 
-body.body2{
+body.body2 {
     background-color: #F3D51C;
 }
 
@@ -18,6 +18,7 @@ body.body2{
     position: relative;
     left: 275px;
     top: -150px;
+    right: 0px;
 }
 
 h1 {
@@ -52,7 +53,7 @@ h1.title2 {
 }
 
 h3.vincent {
-    color:#0A365F ;
+    color: #0A365F;
     font-family: 'Neucha', cursive;
     text-align: center;
 }
@@ -82,7 +83,7 @@ p {
     font-family: 'Neucha', cursive;
 }
 
-p.intro{
+p.intro {
     color: #0A365F;
     font-size: 30px;
     text-align: center;
@@ -96,6 +97,11 @@ p.intro{
 
 img.backbutton {
     width: 5%;
+}
+
+img.si1{
+    width: 80%;
+    height: 90%;
 }
 
 img {
@@ -121,13 +127,171 @@ img {
     padding: 10px;
 }
 
-p.back{
+p.back {
     color: #0A365F;
 }
 
-.back{
+.back {
     margin: 0;
-    position:relative;
+    position: relative;
     left: 35px;
     bottom: 30px;
+}
+
+h1.sunflower1 {
+    color: #B2F3F2;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 700%;
+    transform: rotate(-5deg);
+}
+
+h1.number1 {
+    color: #B2F3F2;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 900%;
+    transform: rotate(-5deg);
+}
+
+.sunflower1 {
+    position: relative;
+    left: 30px;
+    bottom: 100px;
+    margin: 0;
+}
+
+.number1 {
+    position: relative;
+    left: 220px;
+    bottom: 170px;
+    margin: 0;
+}
+
+h1.sunflower2 {
+    color: #F3D51C;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 700%;
+    transform: rotate(5deg);
+}
+
+h1.number2 {
+    color: #F3D51C;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 900%;
+    transform: rotate(5deg);
+}
+
+.sunflower2 {
+    position: relative;
+    left: 1000px;
+    bottom: 40px;
+    right: 0px;
+    margin: 0;
+}
+
+.number2 {
+    position: relative;
+    left: 1200px;
+    bottom: 80px;
+    margin: 0;
+}
+
+.titlerow{
+    position: relative;
+    bottom: 10px;
+}
+
+.sunflowerrow{
+    position: relative;
+    bottom: 175px;
+}
+
+.sunflowerrow2{
+    position: relative;
+    bottom: 200px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+p.s1 {
+    color: #0A365F;
+    font-size: 36px;
+    text-align: center;
+    border-radius: 25px;
+    background: #B2F3F2;
+    padding: 20px;
+    width: 500px;
+    height: 607px;
+    margin: auto;
+}
+
+p.s2 {
+    color: #0A365F;
+    font-size: 38px;
+    text-align: center;
+    border-radius: 25px;
+    background: #F3D51C;
+    padding: 20px;
+    width: 500px;
+    height: 620px;
+    margin: auto;
+}
+
+p.s3 {
+    color: #0A365F;
+    font-size: 43px;
+    text-align: center;
+    border-radius: 25px;
+    background: #B2F3F2;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+p.s4 {
+    color: #0A365F;
+    font-size: 39px;
+    text-align: center;
+    border-radius: 25px;
+    background: #F3D51C;
+    padding: 20px;
+    width: 500px;
+    height: 560px;
+    margin: auto;
+}
+
+p.s5 {
+    color: #0A365F;
+    font-size: 45.5px;
+    text-align: center;
+    border-radius: 25px;
+    background: #B2F3F2;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+}
+
+p.s6 {
+    color: #0A365F;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 25px;
+    background: #F3D51C;
+    padding: 20px;
+    width: 500px;
+    height: 580px;
+    margin: auto;
+}
+
+p.s7 {
+    color: #0A365F;
+    font-size: 42px;
+    text-align: center;
+    border-radius: 25px;
+    background: #B2F3F2;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+    margin: auto;
 }
