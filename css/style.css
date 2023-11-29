@@ -355,3 +355,17 @@ p.s7 {
     height: 635px;
     margin: auto;
 }
+
+/* responsive layout - makes the columns stack on top of eachother instead of next to eachother */
+@media screen and (max-width:900px) {
+    .column {
+        min-width: 50%;
+    }
+}
+
+/* Max-width is a for a phone screen, min-width makes the flex box into one column */
+@media screen and (max-width:590px) {
+    .column {
+        min-width: 75%;
+    }
+}
